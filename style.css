@@ -1,0 +1,46 @@
+.Nav-btn {
+
+    height: 30px;
+    width: 80px;
+}
+
+.Navbar-logo {
+    height: 30px;
+    width: 30px;
+}
+
+.top-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.donate-btn {
+    width: 522px;
+    height: 57px;
+}
+
+.input-donate-btn {
+    width: 522px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.all-card {
+    box-sizing: border-box;
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    border-radius: 8px;
+    margin: 16px 0px;
+    background: rgb(255, 255, 255);
+
+    width: 1140px;
+    height: 531px;
+}
