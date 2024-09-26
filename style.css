@@ -44,3 +44,16 @@
     width: 1140px;
     height: 531px;
 }
+
+.timing {
+    box-sizing: border-box;
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    border-radius: 16px;
+
+    background: rgb(255, 255, 255);
+    width: 1140px;
+    height: 136px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
