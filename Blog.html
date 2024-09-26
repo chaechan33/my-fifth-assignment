@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+
+    <!-- Daisy UI CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+
+
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <button class="btn bg-lime-300 font-bold Nav-btn"><a href="index.html">Home</a></button>
+                </div>
+                <div class="navbar-center">
+                    <img class="Navbar-logo" src="images/logo.png" alt="">
+                    <a class=" text-xs font-bold">Donate Bangladesh</a>
+                </div>
+                <div class="navbar-end">
+
+                    <img src="images/coin.png" alt="">
+                    <p class="">5500 BDT</p>
+                </div>
+        </nav>
+    </header>
+
+
+
+
+    <main>
+        <h1 class="font-bold text-4xl">Important FAQ</h1>
+        <div class="collapse collapse-arrow ">
+            <input type="radio" name="my-accordion-2" checked="checked" />
+            <div class="collapse-title text-xl font-medium">What is the Document Object Model (DOM)?</div>
+            <div class="collapse-content">
+                <p>The Document Object Model (DOM) is a programming interface used to represent and interact with web
+                    pages. It defines the structure of a web page and provides a way for scripts (such as JavaScript) to
+                    access and manipulate the content, structure, and style of the page dynamically.</p>
+            </div>
+        </div>
+        <div class="collapse collapse-arrow ">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-medium">How do you select an element from the DOM?</div>
+            <div class="collapse-content">
+                <p>Here are the main methods to select elements:
+
+                    1. Selecting by ID: document.getElementById()
+                    2. Selecting by Class: document.getElementsByClassName()
+                    3. Selecting by Tag Name: document.getElementsByTagName()
+                    and more.
+
+
+
+                </p>
+            </div>
+        </div>
+        <div class="collapse collapse-arrow ">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-medium">What is event delegation in the context of the DOM, and why
+                is it useful?</div>
+            <div class="collapse-content">
+                <p>Event delegation works by using the event.target property, which refers to the specific element that
+                    triggered the event. In the event handler, you can check the event.target to see if it matches the
+                    specific child element you want to handle.If you have a large number of elements that need event
+                    listeners (e.g., a list with hundreds of items), attaching an event listener to each individual
+                    element can be inefficient and consume more memory.With event delegation, a single listener can
+                    manage events for all of those elements, reducing the number of listeners and improving performance.
+                </p>
+            </div>
+            <div class="collapse collapse-arrow ">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-xl font-medium">How do you manipulate an element's attributes and styles
+                    using DOM?</div>
+                <div class="collapse-content">
+                    <p>We can get, set, or remove HTML attributes (like src, href, id, class, etc.) using various DOM
+                        methods.</p>
+                </div>
+            </div>
+
+
+
+
+
+    </main>
+
+
+</body>
+
+</html>
